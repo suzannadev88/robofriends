@@ -68,7 +68,7 @@ class App extends Component {
           {/* <CardList robots={this.state.robots}/> */}
           {/*attach event handler*/}
           <SearchBox searchChange={this.onSearchChange}/>
-           {/*add scroll component and make CL children*/}
+           {/*add scroll component and make CardList children*/}
           <Scroll>
             <ErrorBoundry>
               <CardList robots={filteredRobots}/>
